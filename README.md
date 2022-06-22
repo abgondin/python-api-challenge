@@ -25,8 +25,7 @@ A python script that uses the Citypy python library and OpenWeatherMap API to vi
 
 The random selection of the 541 cities analysed are evenly distributed througout a latitute range (-60, 80), composed of 382 cities in the northern hemisphere and 159 cities in the southern hemisphere. These numbers indicate that our sample could be slightly skewed, oversampling the northern hemisphere, while not providing sufficient data on the southern hemisphere, specially cities concerning latitutes in the range (-90, -60).
 
-![Lat_vs_temp_plot](https://user-images.githubusercontent.com/77761497/174926842-3e41d161-598c-4ca3-880a-5dac5c274338.png)
-
+<img width="403" alt="Screen Shot 2022-06-22 at 12 04 12 pm" src="https://user-images.githubusercontent.com/77761497/174927674-d36ec5fc-6fd6-470b-bdce-6d9d9d75aee8.png">
 
 In the Lat vs Max Temp plots, it can be observed that the cities closest to the equator, present the highest maximum temperatures. This is further supported with the linear regression of lat vs temp when dividing the data in northern and southern hemispheres. The latitude and temperature of cities in the northern hemisphere present a negative correlation (r-square = -0.89), in which the maximum temperature drops as we move away from the equator into higher latitudes. Complementary, the latitude and temperature of cities in the southern hemisphere present a positive correlation (r-square = 0.57), in which the maximum temperature increases as we move away from more negative latitudes towards latitude 0 in the equator. The r-square value in the southern hemisphere is lower than expected, however this could be due to insuficient data sampling and could be improved if more cities between latitude (-90, -60) are included.
 
