@@ -40,3 +40,6 @@ A python script that uses weather data, along with gmaps and Google Places API t
 2. Filters the city data based on defined ideal weather conditions.
 3. Using Google Places API, finds the first hotel for each city located within 5000 meters of your coordinates.
 4. Plots the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+![hotel_map](https://user-images.githubusercontent.com/77761497/174927485-f42db30d-405e-48d3-90de-31bcd8d147b5.png)
+
